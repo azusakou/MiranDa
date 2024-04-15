@@ -1,17 +1,15 @@
-import geoopt.optim
 import numpy as np
 import torch.optim
-
-from pyhealth.datasets import split_by_patient, get_dataloader
-#from pyhealth.tasks import drug_recommendation_mimic3_fn
-from pyhealth.tasks.drug_recommendationv2 import *
-from pyhealth.trainer import Trainer
-
 import warnings
 import pickle
 from tqdm import tqdm
+
+from pyhealth.datasets import split_by_patient, get_dataloader
+from pyhealth.tasks.drug_recommendationv2 import *
+from pyhealth.trainer import Trainer
 from pyhealth.tokenizer import Tokenizer
 from pyhealth.models.utils import batch_to_multihot
+
 import os
 import wandb
 from cfg import CFG
@@ -608,10 +606,10 @@ def final_experiment():
                 print (score)
 
                 score_rl = alltrain.train_rl(CFG.model_name,
-                                             reinforcement_confidence = 0.43,
-                                             reinforcement_alpha = 0.41,
-                                             reinforcement_beta = 0.4,
-                                             loss_decay = 0.33
+                                             reinforcement_confidence = 0.9,
+                                             reinforcement_alpha = 0.2,
+                                             reinforcement_beta = 0.5,
+                                             loss_decay = 0.2
                                              )
                 tmp_list.append(score_rl)
 
