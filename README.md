@@ -1,13 +1,12 @@
 # MiranDa
-I've been a huge fan of the Biohazard games since I was 12 years old, so I named this model after one of the characters from RE8.
-
-![cover-large](./fig/Picture1.jpg)
 [**MiranDa**: **Mi**micking the Lea**r**ning Process of Hum**an D**octors to Achieve C**a**usal Inference for Medication Recommendation](https://arxiv.org/submit/5536286/view)  
+This is the first study to directly utilize causality in guiding parameter updates, providing highly accurate counterfactual results along with medication recommendations. I've been a huge fan of the Biohazard games since I was 12 years old, so I named this model after one of the characters from RE8.
+![cover-large](./fig/Picture2.jpg)
 
 
-### Visulize medication combinations in Hyperbolic space
-![Picture3](https://github.com/azusakou/MiranDa/blob/6deaf738c42d7626af2d60aea3b9012483179ba8/fig/Picture3.jpg)
-
+## Hierarchical Clustering Dendrogram and Associated Heatmap Analysis
+![Picture3](./fig/Picture6.jpg)
+Starting from the center and moving outward, the first layer illustrates a Hierarchical Clustering Dendrogram with label colors indicating categories within the hyperbolic space and Poincaré model. The next three layers delineate the number of days: fewer than the patient's Length of Stay (LOS), equal to the LOS, and exceeding the LOS, respectively. The subsequent heatmap layer comprises six data sectors: **MiranDa**, baseline, human doctor, procedure, diagnosis, and lab events. The penultimate layer visualizes the number of individuals within the reconfigured group, and finally, the outermost layer presents the corresponding age distribution.
 
 ## Datasets
 
@@ -35,4 +34,5 @@ You can adjust different hyperparameters in the cfg.py file.
 | `read_data`              | Skip the preprocessing |
 | `train_the_last`         | I guess it's important, but I keep forgetting. If anyone is interested, please let me know.|
 
+The development of this code was largely facilitated by [pyHealth](https://github.com/sunlabuiuc/PyHealth), thanks!
 If you have any questions, please let me know. E-mail: wang@med.tohoku.ac.jp
