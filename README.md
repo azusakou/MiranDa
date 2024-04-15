@@ -1,8 +1,9 @@
 # MiranDa
+I've been a huge fan of the Biohazard games since I was 12 years old, so I named this model after one of the characters from RE8.
 
 ![cover-large](./fig/Picture1.jpg)
 [MiranDa: Mimicking the learning process of human doctors to achieve causal inference for medication recommendation](https://arxiv.org/submit/5536286/view)  
-I've been a huge fan of the Biohazard games since I was 12 years old, so I named this model after one of the characters from RE8.
+
 
 ### Visulize medication combinations in Hyperbolic space
 ![Picture3](https://github.com/azusakou/MiranDa/blob/6deaf738c42d7626af2d60aea3b9012483179ba8/fig/Picture3.jpg)
