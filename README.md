@@ -1,6 +1,7 @@
 # MiranDa
 [**MiranDa**: **Mi**micking the Lea**r**ning Process of Hum**an D**octors to Achieve C**a**usal Inference for Medication Recommendation](https://arxiv.org/submit/5536286/view)  
-This is the first study to directly utilize causality in guiding parameter updates, providing highly accurate counterfactual results along with medication recommendations. I've been a huge fan of the Biohazard games since I was 12 years old, so I named this model after one of the characters from RE8.
+This is the first study to directly utilize causality in guiding parameter updates, providing highly accurate counterfactual results along with medication recommendations.   
+For commercial inquiries, please contact us at nagatomi@med.tohoku.ac.jp
 ![cover-large](./fig/Picture2.jpg)
 
 
@@ -34,5 +35,6 @@ You can adjust different hyperparameters in the cfg.py file.
 | `read_data`              | Skip the preprocessing |
 | `train_the_last`         | I guess it's important, but I keep forgetting. If anyone is interested, please let me know.|
 
-The development of this code was largely facilitated by [pyHealth](https://github.com/sunlabuiuc/PyHealth), thanks!
+The development of this code was largely facilitated by [pyHealth](https://github.com/sunlabuiuc/PyHealth). Thanks!  
+I've been a huge fan of the Biohazard games, so I named this model after one of the characters from RE8.  
 If you have any questions, please let me know. E-mail: wang@med.tohoku.ac.jp
