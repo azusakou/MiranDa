@@ -12,8 +12,6 @@ Starting from the center and moving outward, the first layer illustrates a Hiera
 ## Datasets
 
 All input data have been accessed through credential verification from public sources, including [MIMIC III database](https://physionet.org/content/mimiciii/1.4/) and [MIMIC IV database](https://physionet.org/content/mimiciv/0.4/).
-### preprocessing
-It’s quite complex. I will provide the code upon acceptance of the paper. However, I have already included sufficient details about the preprocessing in the paper, so you should be able to handle it on your own as well.
 
 ## Train/inference
 we utilized a range of random seed values from 0 to 29, facilitating 30 distinct dataset splits into training, validation, and test sets for MIMIC III database, and 0 for MIMIC IV database.
