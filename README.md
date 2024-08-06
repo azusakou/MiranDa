@@ -1,5 +1,5 @@
 # MiranDa
-**MiranDa**: **Mi**micking the Lea**r**ning Process of Hum**an D**octors to Achieve C**a**usal Inference for Medication Recommendation  
+[**MiranDa**: **Mi**micking the Lea**r**ning Process of Hum**an D**octors to Achieve C**a**usal Inference for Medication Recommendation](https://arxiv.org/abs/2408.01445)  
 This is the first study to directly utilize causality in guiding parameter updates, providing highly accurate counterfactual results along with medication recommendations.   
 For commercial inquiries, please contact us at nagatomi@med.tohoku.ac.jp
 ![cover-large](./fig/Picture2.jpg)
